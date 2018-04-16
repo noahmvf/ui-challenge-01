@@ -1,0 +1,179 @@
+.single {
+  background-color: rgb(208, 208, 208);
+}
+
+.double div {
+  background-color: rgb(208, 208, 208);
+}
+
+.test-header {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .test-header{
+    display: block;
+  }
+
+  .single {
+    border: 1px solid grey;
+    border-bottom: none;
+  }
+
+  .card .mobile {
+    text-align: center;
+    position: relative;
+    top: 30%;
+  }
+
+  .a {
+    height: 75px;
+    width: 480px;
+  }
+
+  .b {
+    height: 150px;
+    width: 480px;
+  }
+
+  .c {
+    height: 125px;
+    width: 480px;
+  }
+
+  .d {
+    height: 125px;
+    width: 480px;
+  }
+
+  .double {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .double div {
+    display: inline-block;
+  }
+
+  .e {
+    border: 1px solid grey;
+    display: inline-block;
+    height: 250px;
+    width: 240px;
+  }
+
+  .f {
+    border: 1px solid grey;
+    border-left: none;
+    height: 250px;
+    width: 240px;
+  }
+
+  .g {
+    border: 1px solid grey;
+    border-top: none;
+    height: 250px;
+    width: 240px;
+  }
+
+  .h {
+    border: 1px solid grey;
+    border-left: none;
+    border-top: none;
+    height: 250px;
+    width: 240px;
+  }
+
+  .i {
+    border-top: none;
+    height: 80px;
+    position: absolute;
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .test-header{
+    display: block;
+  }
+
+  .card .dimensions {
+    text-align: center;
+    position: relative;
+    top: 30%;
+  }
+
+  .card .mobile {
+    display: none;
+  }
+
+  .a {
+    /* position: relative; */
+    border: 1px solid grey;
+    border-bottom: none;
+    height: 100px;
+    width: 960px;
+  }
+
+  .b {
+    display: flex;
+    position: absolute;
+    height: 600px;
+    width: 200px;
+  }
+
+  .c {
+    border: 1px solid grey;
+    border-left: none;
+    float: right;
+    position: relative;
+    right: 330px;
+    height: 200px;
+    width: 380px;
+  }
+
+  .d {
+    border: 1px solid grey;
+    float: right;
+    position: relative;
+    right: 330px;
+    height: 200px;
+    width: 380px;
+  }
+
+  .e {
+    border: 1px solid grey;
+    height: 250px;
+    width: 190px;
+  }
+
+  .f {
+    border: 1px solid grey;
+    border-left: none;
+    height: 250px;
+    width: 190px;
+  }
+
+  .g {
+    border: 1px solid grey;
+    border-top: none;
+    height: 250px;
+    width: 190px;
+  }
+
+  .h {
+    border: 1px solid grey;
+    border-left: none;
+    border-top: none;
+    height: 250px;
+    width: 190px;
+  }
+
+  .i {
+    border-top: none;
+    height: 150px;
+    position: absolute;
+    width: 760px;
+  }
+}
